@@ -1,0 +1,48 @@
+*{
+    margin:0; padding:0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: red;
+
+}
+nav ul li button{
+    background-color:black;
+    color: white;
+    padding: 6px;
+    border-radius: 14px;
+}
+.first{
+    background-color: rgb(242, 237, 237);
+    margin-left: 40px;
+}
+.first h1{
+    font-size: 90px;
+    
+}
+.first div,.second div,.third div,.fourth div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first div ul li{
+    list-style: none;
+
+}
+.main div{
+    display: flex;
+}
